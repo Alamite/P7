@@ -6,6 +6,7 @@ body{
     margin: 0;
     padding: 0;
     font-family:Poppins;
+    background-color: black;
 }
 .navbar{
     position: fixed;
@@ -141,10 +142,6 @@ fieldset{
   }
 
 
-
-
-
-
   div.elem-group {
     padding-left: 50%;
     padding-right: 60px;
@@ -207,4 +204,21 @@ fieldset{
     border-radius: 15px;
     font-size: 20px;  
     width: 400px;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+ 
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 5px 12px 0 yellow;
+}
+
+/* Add some padding inside the card container */
+.container {
+  background-color: white;
+  padding: 2px 1px;
 }
