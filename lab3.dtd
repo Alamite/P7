@@ -1,0 +1,14 @@
+ <?xml version="1.0"?>
+<!DOCTYPE forests [
+
+<!ELEMENT Honda (model,type,capacity)>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT capacity (#PCDATA)>
+
+<!ELEMENT RIDES (Rideno,start,destination,distance)>
+<!ELEMENT Rideno (#PCDATA)>
+<!ELEMENT start (#PCDATA)>
+<!ELEMENT destination (#PCDATA)>
+<!ELEMENT distance (#PCDATA)>
+]>

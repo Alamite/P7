@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="lab3.xsl"?>
+<Bikes>
+        <Honda>
+                <model>CB300r</model>
+                <type>neo cafe racer</type>
+                <capacity>300cc</capacity>
+        </Honda>
+        <Honda>
+                <model>CBR 650</model>
+                <type>sport</type>
+                <capacity>650cc</capacity>
+        </Honda>
+        <RIDES>
+                <Rideno>001</Rideno>
+                <start>bangalore</start>
+                <destination>salem</destination>
+                <distance>260</distance>
+        </RIDES>
+        <RIDES>
+                <Rideno>002</Rideno>
+                <start>bangalore</start>
+                <destination>salem</destination>
+                <distance>240</distance>
+        </RIDES>
+        <RIDES>
+                <Rideno>003</Rideno>
+                <start>bangalore</start>
+                <destination>salem</destination>
+                <distance>270</distance>
+        </RIDES>
+    </Bikes>

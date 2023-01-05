@@ -1,0 +1,23 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Bikes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Honda" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:byte" name="model"/>
+              <xs:element type="xs:string" name="type"/>
+              <xs:element type="xs:string" name="capacity"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="RIDES" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:byte" name="Rideno"/>
+              <xs:element type="xs:string" name="start"/>
+              <xs:element type="xs:string" name="destination"/>
+              <xs:element type="xs:byte" name="distance"/>
+            </xs:sequence>
+          </xs:complexType>
+</xs:schema>
